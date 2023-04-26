@@ -1,4 +1,4 @@
-package com.example.padroesJava;
+package com.example.padroesJava.singleton;
 
 /**
  * Singleton "preguiçoso".
