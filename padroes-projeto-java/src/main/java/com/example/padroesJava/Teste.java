@@ -1,5 +1,6 @@
 package com.example.padroesJava;
 
+import com.example.padroesJava.facade.Facade;
 import com.example.padroesJava.singleton.SingletonEager;
 import com.example.padroesJava.singleton.SingletonLazy;
 import com.example.padroesJava.singleton.SingletonLazyHolder;
@@ -46,6 +47,13 @@ public class Teste {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        System.out.println("----------------------------------------------");
+
+        //Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Venilton", "148011789");
     }
 
 
